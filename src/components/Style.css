@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-button {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.nav-menu {
+    font-size: 16px;
+    border-radius: 7px;
+    font-weight: 600;
+    padding: 2px 5px;
+    border: none;
+    background-color: #00e5ff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 15px;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+@media (max-width: 998px) {
+    .nav-button .nav-menu  {
+        display: none;
+    }
+}
+
+
+
+/* =========================== index ==================== */
+
+.index-nav-button{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.index-nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    border-radius: 7px;
+    font-weight: 600;
+    border: none;
+    background-color: #00e5ff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 15px;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* ======================= calculator =================== */
+
+
+.App {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cal-mainbox {
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media (max-width: 998px) {
+    .cal-mainbox {
+        width: 95%;
+    }
+}
+
+.cal-main-box {
+    margin-top: 50px;
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.mainscreen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.screen {
+    width: 100%;
+    height: 50px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(165, 164, 164);
+    font-size: 30px;
+    padding: 5px;
+    text-align: end;
+}
+
+.keys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.key-set {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    
+}
+
+.operator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    background-color: #00e5ff;
+    height: 48px;
+    width: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.butt {
+    border-radius: 50%;
+    border: none;
+    height: 48px;
+    width: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.yelloww {
+    background-color: yellow;
+}
+
+.obold {
+    font-size: 30px;
+    font-weight: 600;
+}
+.digits-set {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.digits-b {
+    width: 65%;
+}
+
+.digits-b button {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.oprators-b {
+    width: 20%;
+}
+
+.oprators-b button {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+/* ===================== Currency Converter ================ */
+
+.currency-box{
+    width: 40%;
+    margin: auto;
+    margin-top: 58px;
+    border-radius: 10px;
+    background-color: #eaecf1e7;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media (max-width: 998px) {
+    .currency-box {
+        width: 95%;
+    }
+}
+
+.currency-box h2{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.mainscreen-cur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.screen2 {
+    height: 40px;
+    width: 75%;
+    border-radius: 10px;
+    border: 2px solid rgb(165, 164, 164);
+    font-size: 20px;
+    padding: 5px;
+    text-align: end;
+}
+
+.currency-key-set{
+  justify-content: center;
+  width: 95%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.keyss {
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.cu-butt {
+    border-radius: 50%;
+    border: none;
+    height: 38px;
+    width: 38px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.key-setss {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cu-botton {
+    font-size: 16px;
+    border-radius: 7px;
+    font-weight: 600;
+    padding: 2px 5px;
+    border: none;
+    background-color: #00e5ff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 15px;
+}
+
+.c-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-display p {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+/* ==========================API ================== */
+
+.mai-box-api{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.356);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box-img img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.box-title{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.box-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
