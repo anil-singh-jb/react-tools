@@ -49,4 +49,4 @@ export const {
   completeTodos,
 } = addTodoReducer.actions;
 
-export const reducer = addTodoReducer.reducer;
+export const addReducer = addTodoReducer.reducer;

@@ -1,20 +1,25 @@
 import { configureStore } from "@reduxjs/toolkit";
-import  { reducer } from "./reducer";
-// import {persistStore, persistReducer} from 'redux-persist';
-// import storage from "redux-persist/lib/storage";
-
-// const persistConfig = {
-//   key:'persist-root',
-//   storage,
-//   whitelist: ['addTodoReducer']
-// }
-
-// const persistedReducer = persistReducer(persistConfig,reducer)
+import  { addReducer } from "../redux/reducers/todo/reducer";
+import { newsReducer } from "../redux/reducers/News/NewsSlice";
 
 const store = configureStore({
-  reducer: reducer,
+  newsreducer:newsReducer,
+  reducer:addReducer,
 });
 
-// export const persistor = persistStore(store)
+// const store = configureStore({ 
+//   combineReducers:{
+//     reducer:addReducer,
+//     newsreducer:newsReducer,
+//   }
+// })
+
+// const store = configureStore({
+//   reducer:{
+//    addReducer,
+//    newsReducer,
+//   }
+// });
+
 
 export default store;

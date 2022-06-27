@@ -5,15 +5,14 @@ function Navbar() {
     return (
 
         <>
-
-            <div classNameName='nav-button d-flex flex-direction-row'>
-                <Link classNameName="nav-menu" to="/home">Home</Link>
-                <Link classNameName="nav-menu" to="/calculator">Calculator</Link>
-                <Link classNameName="nav-menu" to="/currencyconvertor">Currency Convertor</Link>
-                <Link classNameName="nav-menu" to="/todo">Todos List</Link>
-                <Link classNameName="nav-menu" to="/get-api">Get API</Link>
+            <div className='nav-button d-flex flex-direction-row'>
+                <Link className="nav-menu" to="/home">Home</Link>
+                <Link className="nav-menu" to="/calculator">Calculator</Link>
+                <Link className="nav-menu" to="/currencyconvertor">Currency Convertor</Link>
+                <Link className="nav-menu" to="/todo">Todos List</Link>
+                <Link className="nav-menu" to="/get-api">Get API</Link>
+                <Link className="nav-menu" to="/news-home">News</Link>
             </div>
-
         </>
 
     )

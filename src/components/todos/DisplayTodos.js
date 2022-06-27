@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
-import { addTodos, completeTodos, removeTodos, updateTodos } from "../../redux/reducer";
+import { addTodos, completeTodos, removeTodos, updateTodos } from "../../redux/reducers/todo/reducer";
 import TodoItem from "./TodoItem";
 
 const mapStateToProps = (state) => {

@@ -80,7 +80,7 @@ function Currencyconvertor() {
               <button type='button' onClick={jpy} className="cu-botton">JPY</button>
               <button type='button' onClick={pound} className="cu-botton">Pound</button>
               <button type='button' onClick={cad} className="cu-botton">CAD $</button>
-              <button type='button' onClick={inr} class="cu-botton">&#8593;&#8595;</button>
+              <button type='button' onClick={inr} className="cu-botton">&#8593;&#8595;</button>
             </div>
           </div>
 
